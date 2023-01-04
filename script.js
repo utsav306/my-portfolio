@@ -18,7 +18,7 @@ $(document).ready(function(){
 
   });
 
-  // smooth scrolling 
+
 
   $('a[href*="#"]').on('click',function(e){
 
@@ -39,7 +39,7 @@ $(document).ready(function(){
 
 
 
-
+//getting emails
 function sendemail(){
   Email.send({
     Host : "smtp.gmail.com",
@@ -55,7 +55,7 @@ function sendemail(){
 }
 
 
-
+//preloader
 var preload= document.getElementById("loading")
 function loade()
 {
